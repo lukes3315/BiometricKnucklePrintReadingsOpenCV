@@ -1,0 +1,4 @@
+- use tridimentional array to extract good finger image -> done
+	-> controversy : slow
+- optimize finger extraction algorithm (multi thread)
+- differentiate each finger from each other (index, middle, ring finger)

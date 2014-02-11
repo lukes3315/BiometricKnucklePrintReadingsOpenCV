@@ -1,0 +1,39 @@
+﻿Build started 8/28/2013 4:55:49 PM.
+     1>Project "C:\Users\LucasLaptop\documents\visual studio 2012\Projects\FingerGeometryOOP\FingerGeometryOOP\FingerGeometryOOP.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\FingerGeometryOOP.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /FR"Debug\\" /Gd /TP /analyze- /errorReport:prompt FilterManager.cpp Finger.cpp FingerDetector.cpp
+         FingerDetector.cpp
+     1>c:\users\lucaslaptop\documents\visual studio 2012\projects\fingergeometryoop\fingergeometryoop\fingerdetector.cpp(86): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+     1>c:\users\lucaslaptop\documents\visual studio 2012\projects\fingergeometryoop\fingergeometryoop\fingerdetector.cpp(217): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+     1>c:\users\lucaslaptop\documents\visual studio 2012\projects\fingergeometryoop\fingergeometryoop\fingerdetector.cpp(218): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+     1>c:\users\lucaslaptop\documents\visual studio 2012\projects\fingergeometryoop\fingergeometryoop\fingerdetector.cpp(219): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+     1>c:\users\lucaslaptop\documents\visual studio 2012\projects\fingergeometryoop\fingergeometryoop\fingerdetector.cpp(228): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\lucaslaptop\documents\visual studio 2012\projects\fingergeometryoop\fingergeometryoop\fingerdetector.cpp(231): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+     1>c:\users\lucaslaptop\documents\visual studio 2012\projects\fingergeometryoop\fingergeometryoop\fingerdetector.cpp(255): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+     1>c:\users\lucaslaptop\documents\visual studio 2012\projects\fingergeometryoop\fingergeometryoop\fingerdetector.cpp(258): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+     1>c:\users\lucaslaptop\documents\visual studio 2012\projects\fingergeometryoop\fingergeometryoop\fingerdetector.cpp(261): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+     1>c:\users\lucaslaptop\documents\visual studio 2012\projects\fingergeometryoop\fingergeometryoop\fingerdetector.cpp(305): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+     1>c:\users\lucaslaptop\documents\visual studio 2012\projects\fingergeometryoop\fingergeometryoop\fingerdetector.cpp(330): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+     1>c:\users\lucaslaptop\documents\visual studio 2012\projects\fingergeometryoop\fingergeometryoop\fingerdetector.cpp(373): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+     1>c:\users\lucaslaptop\documents\visual studio 2012\projects\fingergeometryoop\fingergeometryoop\fingerdetector.cpp(418): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\lucaslaptop\documents\visual studio 2012\projects\fingergeometryoop\fingergeometryoop\fingerdetector.cpp(438): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\lucaslaptop\documents\visual studio 2012\projects\fingergeometryoop\fingergeometryoop\fingerdetector.cpp(457): warning C4018: '<' : incompatibilité signed/unsigned
+         Génération de code en cours...
+         Ignoré... (aucune modification pertinente détectée)
+         Finger.cpp
+         FilterManager.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\LucasLaptop\documents\visual studio 2012\Projects\FingerGeometryOOP\Debug\FingerGeometryOOP.exe" /INCREMENTAL /NOLOGO cv210.lib cxcore210.lib cvaux210.lib highgui210.lib ml210.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\LucasLaptop\documents\visual studio 2012\Projects\FingerGeometryOOP\Debug\FingerGeometryOOP.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\LucasLaptop\documents\visual studio 2012\Projects\FingerGeometryOOP\Debug\FingerGeometryOOP.lib" /MACHINE:X86 Debug\BlobDetector.obj
+         Debug\FilterManager.obj
+         Debug\Finger.obj
+         Debug\FingerDetector.obj
+         Debug\FingerGeometryOOP.obj
+         Debug\stdafx.obj
+         FingerGeometryOOP.vcxproj -> C:\Users\LucasLaptop\documents\visual studio 2012\Projects\FingerGeometryOOP\Debug\FingerGeometryOOP.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\bscmake.exe /nologo /o"C:\Users\LucasLaptop\documents\visual studio 2012\Projects\FingerGeometryOOP\Debug\FingerGeometryOOP.bsc" /n Debug\BlobDetector.sbr Debug\FilterManager.sbr Debug\Finger.sbr Debug\FingerDetector.sbr Debug\FingerGeometryOOP.sbr Debug\stdafx.sbr
+     1>Done Building Project "C:\Users\LucasLaptop\documents\visual studio 2012\Projects\FingerGeometryOOP\FingerGeometryOOP\FingerGeometryOOP.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.87
